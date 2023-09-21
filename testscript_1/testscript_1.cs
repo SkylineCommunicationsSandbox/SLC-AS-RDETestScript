@@ -19,7 +19,7 @@ namespace testscript_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello World!");
-			var order = OrderFactory.CreateOrder("pintje");
+			var order = OrderFactory.CreateOrder("JansChange pintje");
 			order.Dispatch("Robin Debel");
 
 		}
